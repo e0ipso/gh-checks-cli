@@ -65,7 +65,7 @@ const options = program.opts();
     options.commitHash,
     JSON.parse(options.data),
   );
-  debug('Request to the Checks API finished.');
+        debug('Request to the Checks API finished.');
   if (result.status > 399) {
     console.error('Unable to create the status check.');
     exit(1);
