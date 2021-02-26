@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-      - run: npm install
+      - uses: actions/setup-node@v2
+      - run: npm ci
       - run: jq -s '[.[][]]' reports/eslint/*.json > reports/eslint/eslint-combined.json
         if: ${{ failure() }}
       - name: Annotate Code Linting Results
