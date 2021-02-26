@@ -12,9 +12,9 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
-      - run: npm install
-      - run: npm test
-      - run: npm run-script build
+      - run: yarn ci
+      - run: yarn test
+      - run: yarn build
       - run: |
           echo "npmAuthToken: \"${{ secrets.GITHUB_TOKEN }}\"" >> .npmrc
       - run: npm publish --access=public

@@ -41,7 +41,8 @@ program
     'https://api.github.com/api/v3',
   );
 
-program.parse(process.argv);
+const { argv, exit } = process;
+program.parse(argv);
 const options = program.opts();
 
 (async () => {
@@ -67,7 +68,7 @@ const options = program.opts();
   debug('Request to the Checks API finished.');
   if (result.status > 399) {
     console.error('Unable to create the status check.');
-    process.exit(1);
+    exit(1);
   }
   console.log('Status check posted successfully.');
 })();
