@@ -1,8 +1,11 @@
 {
-  "name": "ts-node-startkit",
+  "name": "gh-checks-cli",
   "version": "0.0.1",
-  "description": "Starter kit for your nodejs projects in TypeScript with common tooling.",
-  "main": "dist/index.js",
+  "description": "Lets you update GitHub checks with arbitrary information from the CLI, useful for CI processes.",
+  "main": "build/index.js",
+  "bin": {
+    "gh-ckecks": "./build/cli.js"
+  },
   "scripts": {
     "build": "tsc --pretty",
     "test": "jest",
@@ -16,11 +19,18 @@
     "email": "mateu@mateuaguilo.com"
   },
   "license": "MIT",
+  "dependencies": {
+    "@octokit/auth-app": "^3.0.0",
+    "@octokit/request": "^5.4.14",
+    "commander": "^7.1.0",
+    "debug": "^4.3.1"
+  },
   "devDependencies": {
     "@commitlint/cli": "^12.0.0",
     "@commitlint/config-conventional": "^12.0.0",
     "@formatjs/cli": "^3.1.5",
     "@semantic-release/changelog": "^5.0.1",
+    "@types/debug": "^4.1.5",
     "@types/jest": "^26.0.20",
     "@typescript-eslint/eslint-plugin": "^4.15.2",
     "@typescript-eslint/parser": "^4.15.2",

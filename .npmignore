@@ -1,0 +1,17 @@
+/.github
+/src
+/.editorconfig
+/.eslintignore
+/.eslintrc.js
+/.gitignore
+/.npmignore
+/.nvmrc
+/.prettierignore
+/.prettierrc
+/commitlint.config.js
+/husky.config.js
+/jest.config.ts
+/lint-staged.config.js
+/release.config.js
+/tsconfig.json
+*.d.ts
