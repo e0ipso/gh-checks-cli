@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/e0ipso/gh-checks-cli/compare/v1.3.2...v1.3.3) (2021-02-27)
+
+
+### Bug Fixes
+
+* avoid releasing the release folder ([6756574](https://github.com/e0ipso/gh-checks-cli/commit/6756574a8e10f10a61bd9c5b1da34da1b4396a78))
+
 ## [1.3.2](https://github.com/e0ipso/gh-checks-cli/compare/v1.3.1...v1.3.2) (2021-02-27)
 
 
