@@ -4,7 +4,7 @@
   "description": "Lets you update GitHub checks with arbitrary information from the CLI, useful for CI processes.",
   "main": "build/index.js",
   "bin": {
-    "gh-checks": "build/cli.js"
+    "gh-checks-cli": "build/cli.js"
   },
   "scripts": {
     "start": "gh-checks",
