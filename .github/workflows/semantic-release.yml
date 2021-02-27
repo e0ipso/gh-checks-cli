@@ -15,9 +15,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Install package dependencies
-        run: yarn install
-
       - run: yarn lint:ci
 
       - run: yarn test
@@ -35,11 +32,9 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Install package dependencies
-        run: yarn install
-
       - name: Semantic Release
         run: yarn semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          HUSKY: 0
