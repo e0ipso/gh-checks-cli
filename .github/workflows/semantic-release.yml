@@ -32,6 +32,9 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
+      - name: Compile
+        run: yarn build
+
       - name: Semantic Release
         run: yarn semantic-release
         env:

@@ -17,3 +17,6 @@
 *.d.ts
 /.pnp.js
 /.yarn
+/README.md
+/CHANGELOG.md
+/reports
