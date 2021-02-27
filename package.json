@@ -1,10 +1,10 @@
 {
   "name": "gh-checks-cli",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Lets you update GitHub checks with arbitrary information from the CLI, useful for CI processes.",
   "main": "build/index.js",
   "bin": {
-    "gh-checks": "./build/cli.js"
+    "gh-checks": "build/cli.js"
   },
   "scripts": {
     "start": "gh-checks",
