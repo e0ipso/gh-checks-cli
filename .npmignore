@@ -15,3 +15,5 @@
 /release.config.js
 /tsconfig.json
 *.d.ts
+/.pnp.js
+/.yarn

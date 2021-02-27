@@ -4,6 +4,8 @@ module.exports = {
     ['@semantic-release/commit-analyzer', { preset: 'conventionalcommits' }],
     '@semantic-release/release-notes-generator',
     '@semantic-release/changelog',
-    '@semantic-release/github',
+    ['@semantic-release/npm', { tarballDir: 'release' }],
+    ['@semantic-release/github', { assets: 'release/*.tgz' }],
+    '@semantic-release/git',
   ],
 };
