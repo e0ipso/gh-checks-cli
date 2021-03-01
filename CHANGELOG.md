@@ -1,3 +1,10 @@
+## [1.3.4](https://github.com/e0ipso/gh-checks-cli/compare/v1.3.3...v1.3.4) (2021-03-01)
+
+
+### Bug Fixes
+
+* no need to install husky in a postinstall ([5c4dc48](https://github.com/e0ipso/gh-checks-cli/commit/5c4dc481870755dc7b43684c6d57a24ed2b3a38d))
+
 ## [1.3.3](https://github.com/e0ipso/gh-checks-cli/compare/v1.3.2...v1.3.3) (2021-02-27)
 
 
