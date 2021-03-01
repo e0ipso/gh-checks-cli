@@ -2,11 +2,11 @@
   "name": "gh-checks-cli",
   "version": "1.3.3",
   "description": "Lets you update GitHub checks with arbitrary information from the CLI, useful for CI processes.",
-  "main": "build/index.js",
-  "bin": "build/cli.js",
+  "main": "src/cli.ts",
+  "bin": "build/gh-checks-cli.js",
   "scripts": {
     "start": "gh-checks-cli",
-    "build": "yarn tsc --build --pretty",
+    "build": "yarn webpack",
     "test": "jest --passWithNoTests",
     "test:ci": "yarn test --watchAll=false --coverage",
     "lint": "eslint .",
@@ -48,7 +48,10 @@
     "prettier": "^2.2.1",
     "semantic-release": "^17.4.0",
     "ts-jest": "^26.5.2",
+    "ts-loader": "^8.0.17",
     "ts-node": "^9.1.1",
-    "typescript": "^4.2.2"
+    "typescript": "^4.2.2",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0"
   }
 }
