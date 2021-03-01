@@ -1,7 +1,10 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
+const ShebangPlugin = require('webpack-shebang-plugin');
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const path = require('path');
 
 module.exports = {
+  plugins: [new ShebangPlugin()],
   entry: './src/cli.ts',
   devtool: 'inline-source-map',
   target: 'node',
