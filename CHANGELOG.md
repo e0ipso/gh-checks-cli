@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/e0ipso/gh-checks-cli/compare/v1.3.4...v1.4.0) (2021-03-01)
+
+
+### Features
+
+* bundle application using webpack ([7df9790](https://github.com/e0ipso/gh-checks-cli/commit/7df9790d8e1173fa8953c4c03e95afb01121c75f))
+
 ## [1.3.4](https://github.com/e0ipso/gh-checks-cli/compare/v1.3.3...v1.3.4) (2021-03-01)
 
 
