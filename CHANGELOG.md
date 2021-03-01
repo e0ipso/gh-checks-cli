@@ -1,3 +1,11 @@
+## [1.4.1](https://github.com/e0ipso/gh-checks-cli/compare/v1.4.0...v1.4.1) (2021-03-01)
+
+
+### Bug Fixes
+
+* add shebang to enable using npx ([9cad535](https://github.com/e0ipso/gh-checks-cli/commit/9cad535b4fbfaf2e6b3919021c0fe124c65136fb))
+* add shebang to enable using npx (webpack) ([6b1f878](https://github.com/e0ipso/gh-checks-cli/commit/6b1f8787589be8b99d329f61f5f47b8093a2d111))
+
 # [1.4.0](https://github.com/e0ipso/gh-checks-cli/compare/v1.3.4...v1.4.0) (2021-03-01)
 
 
