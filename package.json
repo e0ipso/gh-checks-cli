@@ -12,8 +12,7 @@
     "lint": "eslint .",
     "lint:fix": "prettier --write \"**/*.+(js|jsx|ts|tsx|json|md)\" && yarn lint --fix",
     "lint:ci": "yarn lint -o reports/eslint/issues.json -f json",
-    "lint-staged": "lint-staged",
-    "postinstall": "husky install"
+    "lint-staged": "lint-staged"
   },
   "author": {
     "name": "Mateu Aguiló Bosch",
