@@ -6,7 +6,7 @@
   "bin": "build/gh-checks-cli.js",
   "scripts": {
     "start": "gh-checks-cli",
-    "build": "yarn webpack",
+    "build": "webpack --mode production",
     "test": "jest --passWithNoTests",
     "test:ci": "yarn test --watchAll=false --coverage",
     "lint": "eslint .",
