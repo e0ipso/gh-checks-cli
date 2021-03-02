@@ -43,8 +43,8 @@ program
     'https://api.github.com/api/v3',
   );
 
-const { argv, exit } = process;
-program.parse(argv);
+   const { argv, exit } = process;
+program.parse(   argv);
 const options = program.opts();
 
 (async () => {
