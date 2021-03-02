@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/e0ipso/gh-checks-cli/compare/v1.5.1...v1.5.2) (2021-03-02)
+
+
+### Bug Fixes
+
+* avoid webpack for this one ([3f3c1a8](https://github.com/e0ipso/gh-checks-cli/commit/3f3c1a8bfece40da671cf81d8e34ffeecef54427))
+
 ## [1.5.1](https://github.com/e0ipso/gh-checks-cli/compare/v1.5.0...v1.5.1) (2021-03-02)
 
 
