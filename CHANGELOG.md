@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/e0ipso/gh-checks-cli/compare/v1.4.1...v1.5.0) (2021-03-02)
+
+
+### Features
+
+* change PEM format to PKCS[#8](https://github.com/e0ipso/gh-checks-cli/issues/8) ([#3](https://github.com/e0ipso/gh-checks-cli/issues/3)) ([9b4e620](https://github.com/e0ipso/gh-checks-cli/commit/9b4e620db76c76528371da3144818369769eba59))
+
 ## [1.4.1](https://github.com/e0ipso/gh-checks-cli/compare/v1.4.0...v1.4.1) (2021-03-01)
 
 
