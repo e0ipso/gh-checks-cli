@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/e0ipso/gh-checks-cli/compare/v1.5.0...v1.5.1) (2021-03-02)
+
+
+### Bug Fixes
+
+* add atob and btoa ([5a71721](https://github.com/e0ipso/gh-checks-cli/commit/5a71721760e37af8ed7373efd105f46fd44066fb))
+
 # [1.5.0](https://github.com/e0ipso/gh-checks-cli/compare/v1.4.1...v1.5.0) (2021-03-02)
 
 
