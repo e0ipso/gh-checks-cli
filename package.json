@@ -3,10 +3,10 @@
   "version": "1.5.0",
   "description": "Lets you update GitHub checks with arbitrary information from the CLI, useful for CI processes.",
   "main": "src/cli.ts",
-  "bin": "build/gh-checks-cli.js",
+  "bin": "build/cli.js",
   "scripts": {
     "start": "gh-checks-cli",
-    "build": "webpack --mode production",
+    "build": "tsc --build --pretty",
     "test": "jest --passWithNoTests",
     "test:ci": "yarn test --watchAll=false --coverage",
     "lint": "eslint .",
@@ -22,8 +22,6 @@
   "dependencies": {
     "@octokit/auth-app": "^3.0.0",
     "@octokit/request": "^5.4.14",
-    "atob": "^2.1.2",
-    "btoa": "^1.2.1",
     "commander": "^7.1.0",
     "debug": "^4.3.1",
     "node-rsa": "^1.1.1"
@@ -52,11 +50,7 @@
     "prettier": "^2.2.1",
     "semantic-release": "^17.4.0",
     "ts-jest": "^26.5.2",
-    "ts-loader": "^8.0.17",
     "ts-node": "^9.1.1",
-    "typescript": "^4.2.2",
-    "webpack": "^5.24.2",
-    "webpack-cli": "^4.5.0",
-    "webpack-shebang-plugin": "^1.1.4"
+    "typescript": "^4.2.2"
   }
 }
