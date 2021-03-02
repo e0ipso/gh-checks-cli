@@ -13,7 +13,7 @@ export default async function (
   clientSecret: string,
   privateKeyPath: string,
   gitHubUrl: string,
-): Promise<AuthInterface<never[], Authentication>> {
+): Promise<AuthInterface<any[], Authentication>> {
   const privateKeyPkcs1 = await readFileContents(privateKeyPath);
   const key = new NodeRSA(privateKeyPkcs1);
   const privateKey = key.exportKey('pkcs8-private-pem');
